@@ -6,3 +6,4 @@
 - Built graphs on old jobs_class.cvs; user wanted firmsize_clean_data.csv from Firmsize_CPS_data_prep_1996_2026.ipynb → git fetch main and read the latest prep notebook before choosing a dataset.
 - Final Colab notebooks and graphs go to My Drive/Jobs, Workers, and Development/Project.
 - Colab popup "No se pudo enviar el mensaje al entorno de ejecución: TypeError: Load failed" = browser lost connection to the runtime (Safari), not a code bug → reload, reconnect runtime, or use Chrome.
+- KeyError firmsize4_label: Drive CSV was an older prep version (columns differ from repo) → build labels from *_label, codes, or dummies, whichever exists.

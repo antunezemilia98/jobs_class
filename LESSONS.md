@@ -8,4 +8,4 @@
 - Colab popup "No se pudo enviar el mensaje al entorno de ejecución: TypeError: Load failed" = browser lost connection to the runtime (Safari), not a code bug → reload, reconnect runtime, or use Chrome.
 - KeyError firmsize4_label: Drive CSV was an older prep version → user wants exactly 4 firm-size groups (under 10, 10-99, 100-499, 500+); stop with a clear 're-run the prep notebook' message instead of falling back to 3 groups.
 - Prep used range(1996, 2026), which stops at 2025; user wants 1996-2026 → range end is exclusive, use range(1996, 2027) and check years in the data.
-- User disliked graph 1 pooling all years → compare snapshot years (1996, 2006, 2016, 2026) instead of all-years-combined.
+- User dislikes graphs that pool all years (graphs 1, 7-10) → compare snapshot years 1996, 2006, 2016, 2026, one panel per year side by side.
